@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_JfLPgHntEeiKr8eMJpEFsA" name="Cities" dataPackage="_JfQvEHntEeiKr8eMJpEFsA _QMYccHnvEeiKr8eMJpEFsA" Server="Localhost 127.0.0.1" FilePath="/home/varun/Desktop/TOS_ESB-20180411_1414-V7.0.1/Studio/workspace/in.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_JfQvEHntEeiKr8eMJpEFsA" name="default" dataManager="_JfLPgHntEeiKr8eMJpEFsA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_JfQvEXntEeiKr8eMJpEFsA" id="_AptqsHntEeiKr8eMJpEFsA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JfQvEnntEeiKr8eMJpEFsA" label="No" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UthXQHntEeiKr8eMJpEFsA" name="Name" label="Name" length="20" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_QMYccHnvEeiKr8eMJpEFsA" name="default" dataManager="_JfLPgHntEeiKr8eMJpEFsA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_QMYccXnvEeiKr8eMJpEFsA" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_MxjUUHnvEeiKr8eMJpEFsA" label="metadata1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QMYccnnvEeiKr8eMJpEFsA" name="Name" label="Name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QMYcc3nvEeiKr8eMJpEFsA" name="No" label="No" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
