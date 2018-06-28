@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_9juq0XnkEeiKr8eMJpEFsA" label="Local_Project" description="" language="java" technicalLabel="LOCAL_PROJECT" local="true" author="_9mhgIHnkEeiKr8eMJpEFsA" productVersion="Talend Open Studio for ESB-7.0.1.20180411_1414" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_9juq0XnkEeiKr8eMJpEFsA" label="tl" description="" language="java" technicalLabel="TL" local="true" author="_9mhgIHnkEeiKr8eMJpEFsA" productVersion="Talend Open Studio for ESB-7.0.1.20180411_1414" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_91dUAHnkEeiKr8eMJpEFsA" label="development" code="DEV"/>
     <technicalStatus xmi:id="_91dUAXnkEeiKr8eMJpEFsA" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_91dUAnnkEeiKr8eMJpEFsA" label="production" code="PROD"/>
@@ -121,6 +121,18 @@
       <relatedItems xmi:id="_ruwhqHoWEeiCmK_n_Q7OIw" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ruwhqXoWEeiCmK_n_Q7OIw" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ruwhqnoWEeiCmK_n_Q7OIw" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_vrPnEHqfEeiuToP_mvjoIg">
+      <baseItem xmi:id="_vrPnEXqfEeiuToP_mvjoIg" id="_pXu3EHqeEeiuToP_mvjoIg" version="0.1" type="job"/>
+      <relatedItems xmi:id="_vrPnEnqfEeiuToP_mvjoIg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vrPnE3qfEeiuToP_mvjoIg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vrPnFHqfEeiuToP_mvjoIg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vrPnFXqfEeiuToP_mvjoIg" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vrPnFnqfEeiuToP_mvjoIg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vrPnF3qfEeiuToP_mvjoIg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vrPnGHqfEeiuToP_mvjoIg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vrPnGXqfEeiuToP_mvjoIg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vrPnGnqfEeiuToP_mvjoIg" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_9t1pEHnkEeiKr8eMJpEFsA" id="org.talend.designer.core.generic.model.migration.ChangeDriverJarForProjectSetting" breaks="7.0.1" version="7.0.1" status="ok"/>
     <migrationTask xmi:id="_9t1pEXnkEeiKr8eMJpEFsA" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="ok"/>
