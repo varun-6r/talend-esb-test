@@ -15,6 +15,9 @@
     <module>jobs/process/test2_0.1</module>
     <module>jobs/process/JSONtoCSV/jsontocsv_0.1</module>
     <module>jobs/process/JSONtoCSV/jsontofile_0.1</module>
+    <module>jobs/process/JSONtoCSV/jsontofilev2_0.1</module>
+    <module>jobs/process/JSONtoCSV/jsontofilev3_0.1</module>
+    <module>jobs/process/JSONtoCSV/mappingdemo_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DEMO</talend.project.name>
